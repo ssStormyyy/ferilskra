@@ -139,7 +139,7 @@ body {
 }
 
 .text1.ontoscreen {
-    bottom: 35%;
+    bottom: 20%;
     left: 34.5%;
     transform: translate(-50%, -50%);
 }
@@ -160,4 +160,5 @@ body {
     right: 10%;
     rotate: -720deg;
     translate: -50% -50%;
+
 }

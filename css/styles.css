@@ -139,7 +139,7 @@ body {
 }
 
 .text1.ontoscreen {
-    bottom: 0%;
+    bottom: 35%;
     left: 34.5%;
     transform: translate(-50%, -50%);
 }
@@ -162,4 +162,5 @@ body {
     translate: -50% -50%;
 
 }
+
 

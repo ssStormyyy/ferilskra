@@ -31,7 +31,7 @@ window.addEventListener('keydown', (event) => {
     pageNumber.classList.remove('onscreen');
   }
 
-  if (currentSlide == 1) {
+  if (currentSlide = 1) {
     title1.classList.add('ontoscreen')
     text1.classList.add('ontoscreen')
     inkscape.classList.add('ontoscreen')
@@ -48,5 +48,6 @@ window.addEventListener('keydown', (event) => {
   const offset = -(currentSlide * (100 / totalSlides));
   document.documentElement.style.setProperty('--bg-offset', `${offset}%`);
 });
+
 
 

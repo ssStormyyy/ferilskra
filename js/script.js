@@ -24,6 +24,7 @@ window.addEventListener('keydown', (event) => {
     title.classList.add('minimized');
     name.classList.add('minimized');
     pageNumber.classList.add('onscreen');
+    title1.classList.remove('ontoscreen')
   } else {
     title.classList.remove('minimized');
     title2.classList.remove('minimized');
@@ -47,4 +48,5 @@ window.addEventListener('keydown', (event) => {
   const offset = -(currentSlide * (100 / totalSlides));
   document.documentElement.style.setProperty('--bg-offset', `${offset}%`);
 });
+
 

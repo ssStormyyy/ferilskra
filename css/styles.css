@@ -11,6 +11,10 @@ body {
   background: #fffaf0;
 }
 
+.verk6 {
+  font-size: rem3;
+}
+
 /* Titles */
 h1, h3 {
   position: absolute;
@@ -99,3 +103,4 @@ h4.onscreen { opacity: 1; }
   transition: transform 1s ease;
   z-index: -1;
 }
+
